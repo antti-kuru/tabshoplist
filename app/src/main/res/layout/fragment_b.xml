@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnAddItem"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.FragmentB">
+
+    <EditText
+        android:id="@+id/txtItem"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|left"
+        android:ems="10"
+        android:hint="Tuotteen nimi"
+        android:inputType="textPersonName" />
+
+    <EditText
+        android:id="@+id/txtNotes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|right
+"
+        android:ems="10"
+        android:hint="Huomoitavaa"
+        android:inputType="textPersonName" />
+
+    <CheckBox
+        android:id="@+id/cbImportant"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Merkitse tuote tärkeäksi" />
+
+    <Button
+        android:id="@+id/buttonAdd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|center"
+        android:text="Lisää tuote" />
+</FrameLayout>
